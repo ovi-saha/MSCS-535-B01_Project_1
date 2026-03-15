@@ -2,7 +2,7 @@
 This Repo is Project 1 for Secure Software Development (MSCS-535-B01)
 # Secure-MFA-System 
 
-A Java-based web application demonstrating enterprise-grade security protocols. This project specifically addresses **Defense-in-Depth** strategies against Phishing and SQL Injection as part of the MSCS-634 Graduate Lab.
+A Java-based web application demonstrating enterprise-grade security protocols. This project specifically addresses **Defense-in-Depth** strategies against Phishing and SQL Injection as part of the Secure Software Development (MSCS-535-B01) project.
 
 ##  Core Features
 
@@ -66,6 +66,7 @@ To verify the security layers, follow this sequence:
 **Register:** POST https://localhost:8443/api/register
 
     - Register a new user with a JSON payload.
+    
 
 **Login:** POST https://localhost:8443/api/login
 
