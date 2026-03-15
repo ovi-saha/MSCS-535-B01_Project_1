@@ -1,10 +1,10 @@
 # MSCS-535-B01_Project_1
 This Repo is Project 1 for Secure Software Development (MSCS-535-B01)
-# Secure-MFA-System 🔐
+# Secure-MFA-System 
 
 A Java-based web application demonstrating enterprise-grade security protocols. This project specifically addresses **Defense-in-Depth** strategies against Phishing and SQL Injection as part of the MSCS-634 Graduate Lab.
 
-## 🌟 Core Features
+##  Core Features
 
 ### 1. Multi-Factor Authentication (MFA/2FA)
 * **TOTP Algorithm:** Implements the Time-based One-Time Password (RFC 6238) algorithm.
@@ -21,7 +21,7 @@ A Java-based web application demonstrating enterprise-grade security protocols. 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Framework:** Spring Boot 3.x
 * **Security:** Spring Security
 * **Database:** H2 (JPA/Hibernate)
@@ -31,12 +31,12 @@ A Java-based web application demonstrating enterprise-grade security protocols. 
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Generate SSL Certificate
 Run the following command in your terminal to create the required `.p12` keystore:
 ```bash
-keytool -genkeypair -alias secureapp -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore src/main/resources/keystore.p12 -validity 3650
+keytool -genkeypair -alias secureapp -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore src/main/resources/keystore.p12 -validity 3650```
 
 ### 2. Configure Environment
 
