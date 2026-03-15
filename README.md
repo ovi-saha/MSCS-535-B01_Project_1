@@ -32,7 +32,7 @@ A Java-based web application demonstrating enterprise-grade security protocols. 
 ---
 
 ##  Installation & Setup
-
+- Clone this project to your system then open it in intelliJ IDEA or eclips. Then, 
 ### 1. Generate SSL Certificate
 Run the following command in your terminal to create the required `.p12` keystore:
 ```bash
